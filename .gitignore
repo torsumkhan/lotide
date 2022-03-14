@@ -1,0 +1,2 @@
+#we dont want node modules
+./node_modules
