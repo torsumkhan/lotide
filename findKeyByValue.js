@@ -3,6 +3,7 @@ const findKeyByValue = function (object,value) {
 
     for (const key of findKeys) {      
         if (object[key] === value){
+            console.log(object[key])
             return key
         }
     }

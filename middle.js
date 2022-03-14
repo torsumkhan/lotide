@@ -6,7 +6,7 @@ const middle = function(arr) {
     } 
     else {
         if (arr.length % 2 == 0) {
-            let theMiddle = Math.floor((arr.length -1)/2);
+            let theMiddle = Math.floor((arr.length -1)/2); //convert length to match the index and divide it by 2
             returnArr.push(arr[theMiddle], arr[theMiddle + 1]);
         } else {
             let theMiddle = Math.floor((arr.length-1)/2);
